@@ -1,3 +1,55 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+dist/
+build/
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OhMyOpenCode - Orchestration (LOCAL ONLY, DO NOT COMMIT)
+.sisyphus/
+!.sisyphus/plans/  # Keep plan templates
+!.sisyphus/notepads/  # Keep notepad templates
+
+
+# Thư mục môi trường ảo
+venv/
+.venv/
+env/
+
+# Các file sinh ra khi chạy code
+Meshingcode/mesh_result.png
+__pycache__/
+*.pyc
+
+# Folder AI dataset nếu ông chưa muốn push lên
+ai/dataset/
+
 __pycache__
 *.pyc
 venv
