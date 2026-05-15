@@ -1,12 +1,9 @@
 from fastapi import APIRouter, HTTPException, status
 from app.core.fea_engine import FEAEngine
+from app.schemas.solver import SolveRequest, SolveResult
 import numpy as np
 import logging
-from pydantic import BaseModel
 
-class SolveRequest(BaseModel):
-    ...
-    
 # Khởi tạo logger để theo dõi quá trình tính toán
 logger = logging.getLogger(__name__)
 
